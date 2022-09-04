@@ -47,7 +47,7 @@ public class JpaMain {
 //            Member findMember1 = em.find(Member.class, 101L);
 //            Member findMember2 = em.find(Member.class, 101L);
 //
-//            System.out.println("result = "  + (findMember1 == findMember2));ㅇㅇ
+//            System.out.println("result = "  + (findMember1 == findMember2));
             Member member = em.find(Member.class, 150L);
             member.setName("changeA");
 
