@@ -25,7 +25,7 @@ public class JpaMain {
 //            Member findMember = em.find(Member.class, 1L);
 //            findMember.setName("HelloJPA");
 
-//            JPQL CASE
+//            JPQL CASE22
             List<Member> result = em.createQuery("SELECT m from Member as m", Member.class)
                     .getResultList();
             for (Member member : result){
