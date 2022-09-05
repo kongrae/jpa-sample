@@ -48,11 +48,15 @@ public class JpaMain {
 //            Member findMember2 = em.find(Member.class, 101L);
 //
 //            System.out.println("result = "  + (findMember1 == findMember2));
-//            Member member = em.find(Member.class, 150L);
-//            member.setName("changeA");
-
-            System.out.println("====================");
-            System.out.println("====================");
+//            Member member = em.find(Member.class, 200L);
+//            member.setName("changeBB");
+//
+//            em.detach(member);
+//            em.clear();
+//
+//            Member member2 = em.find(Member.class, 200L);
+//
+//        	System.out.println("======================");
 
             tx.commit();
         } catch (Exception e) {
