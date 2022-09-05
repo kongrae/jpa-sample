@@ -52,6 +52,7 @@ public class JpaMain {
 //            member.setName("changeA");
 
             System.out.println("====================");
+            System.out.println("====================");
 
             tx.commit();
         } catch (Exception e) {
