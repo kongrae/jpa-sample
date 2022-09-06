@@ -57,6 +57,14 @@ public class JpaMain {
 //            Member member2 = em.find(Member.class, 200L);
 //
 //        	System.out.println("======================");
+            Member member = new Member();
+//            member.setId("ID_A");
+            member.setUsername("C");
+
+            System.out.println("++++++++++++++++++");
+            em.persist(member);
+            System.out.println("id : " + member.getId());
+            System.out.println("++++++++++++++++++");
 
             tx.commit();
         } catch (Exception e) {
